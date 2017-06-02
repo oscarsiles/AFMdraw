@@ -1,0 +1,7 @@
+        LithoCenterXY();                   // move tip to center of field
+        LithoPause(5);
+		
+        LITHO_END
+
+        return 0;       // 0 makes the macro unload. Return 1 to keep the macro loaded.
+}

@@ -1,0 +1,15 @@
+//---------------------------------------------------------------------------
+//----------------------- Lithography Commands ------------------------------
+//---------------------------------------------------------------------------
+// Scan Speed:     SS Speed    (Unit: [µm/s]; typical Values: 1 - 1000)
+// Move Absolute:  MA X,Y      (Unit: [µm]; typical values: +- 0.01 - 100)
+// Move Relative:  MR X,Y      (Unit: [µm]; typical values: +- 0.01 - 100)
+// Jump Absolute:  JA X,Y      (Unit: [µm]; typical values: +- 0.01 - 100)
+// Jump Relative:  JR X,Y      (Unit: [µm]; typical values: +- 0.01 - 100)
+// Image Trigger:  IT State    (States: (on,off))
+// Move Upper Microscope Relative:
+//                 MUMR Z      (Unit: [µm]; typical values: +- 0.1 - 100)
+// Move Upper Microscope Absolute:
+//                 MUMA Z      (Unit: [µm]; typical values: +- 0.1 - 100)
+// Status Label:   SL Text     (Text: up to 15 ASCII characters)
+//---------------------------------------------------------------------------

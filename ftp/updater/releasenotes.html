@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+    <title>AFMdraw Changelog</title>
+</head>
+<body>
+    <p>
+        AFMdraw<br>
+        Copyright (c) 2017 Oscar Siles Brügge
+    </p>
+    <p>
+        + added<br>
+        * changed<br>
+        - deleted<br>
+        ! bug fixed
+    </p>
+    <p>v1.6.0 - 17/07/2014</p>
+<pre>
+    + <b>Shows estimated completion time.</b>
+        Remember to adjust time scaling when using SNOM
+</pre>
+    <p>v1.5.7 - 20/03/2014</p>
+<pre>
+    ! <b>Fixed major bug with Bruker scripts</b>
+        LithoTranslate moves relative to last point, not
+        absolute with respect to origin
+</pre>
+    <p>v1.5.6 - 17/03/2014</p>
+<pre>
+    + Added (highly) experimental Load Script option
+        Currently only works for witec scripts
+    + Added editing of script, updated by pressing the new
+        "Update Drawing" button
+    ! Fixed scripts being created without leading 0 for small 
+        coordinates (e.g. .3 instead of 0.3)
+</pre>
+    <p>v1.5.5 - 13/03/2014</p>
+<pre>
+    + Added live preview of script
+        Editing the script directly is not currently possible
+    ! Fixed bug that would sometimes cause dots to be created
+        on vertices
+</pre>
+    <p>v1.5.4 - 09/03/2014</p>
+<pre>
+    + Added circles
+        Number of lines per circle increases with radius
+    * Changed line cancel behaviour
+        Right-click to cancel drawing a line
+    * Lines are now antialiased, and have a width of 1
+    ! Boundary fix now checks to see if line would pass within
+        the drawing area, and adds a line accordingly
+</pre>
+    <p>v1.5.3 - 06/03/2014</p>
+<pre>
+    + Added snap to grid tool
+    + Points outside boundaries are now removed before saving
+        Can also remove manually using new tool button
+</pre>
+    <p>v1.5.2 - 05/03/2014</p>
+<pre>
+    + Statusbar information on drawing windows
+    * Bruker scripts now have speed set to n, and jump speed 
+      set to 20µm/s. Manually change n in the script before
+      compiling, if desired
+    ! Spirals have varying lines per rotation, and a maximum
+      number of lines. This should prevent most crashes
+</pre>
+    <p>v1.5.1 - 27/02/2014</p>
+<pre>
+    + Spirals!
+        * <b>Warning:</b> Be careful of <b>a</b> and <b>n</b> values, these
+          can easily cause the program to crash or 
+          become unresponsive.
+    * Tool selector changes
+</pre>
+    <p>v1.5.0 - 26/02/2014</p>
+<pre>
+    + <b>Massive GUI overhaul</b>
+        + Work on multiple AFMdraw scripts at once
+        + Change drawing panel size
+    * Source file format includes grid size
+    ! Several shift-click drawing bugs fixed
+</pre>
+    <p>v1.0.1 - 22/02/2014</p>
+<pre>
+    + Toggle gridlines
+</pre>
+    <p>v1.0.0 - 21/02/2014</p>
+<pre>
+    + Initial release
+</pre>
+</body>
+</html>

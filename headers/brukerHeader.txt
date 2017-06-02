@@ -1,0 +1,19 @@
+
+#include <litho.h>
+
+extern "C" __declspec(dllexport) int macroMain()
+{
+        LITHO_BEGIN
+
+        LithoDisplayStatusBox();        // display litho status box
+
+        LithoScan(false);                       // turn off scanning
+        LithoCenterXY();                        // move tip to center of field
+
+        double ws = 5;			// CHANGE THIS - write speed
+        double js = 20;			// jump speed
+        double wv = 1.67;		// Change this - write voltage
+        double jv = 0.05;		// might be ok - jump voltage (want it to not affect surface)
+
+        LithoSet(lsSetpoint, jv);
+        LithoPause(10);         // pause 10 seconds
